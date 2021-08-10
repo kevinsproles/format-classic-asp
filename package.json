@@ -3,6 +3,7 @@
   "displayName": "formatClassicAsp",
   "description": "formats classic asp code to make it prettier",
   "version": "0.0.1",
+  "publisher": "volusion",
   "engines": {
     "vscode": "^1.59.0"
   },
