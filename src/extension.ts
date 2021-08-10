@@ -105,7 +105,9 @@ export function activate(context: ExtensionContext) {
   // 👍 formatter implemented using API
   languages.registerDocumentFormattingEditProvider("asp", {
     provideDocumentFormattingEdits(document: TextDocument): TextEdit[] {
-      console.log("running formatter on file " + document.fileName);
+      console.log(
+        "running formatClassicAsp formatter on file " + document.fileName
+      );
 
       // camel case the document
       const documentText = document.getText();
