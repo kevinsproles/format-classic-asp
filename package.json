@@ -29,9 +29,8 @@
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
-    "compile": "npm run copy-files && tsc -p ./",
-    "copy-files": "cp ./src/camelCaseClassicAsp.py ./out/camelCaseClassicAsp.py",
-    "watch": "npm run copy-files && tsc -watch -p ./",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js"
