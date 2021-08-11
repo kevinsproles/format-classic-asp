@@ -4,6 +4,7 @@
   "description": "formats classic asp code to make it prettier",
   "version": "0.0.1",
   "publisher": "volusion",
+  "repository": "https://github.com/kevinsproles/format-classic-asp",
   "engines": {
     "vscode": "^1.59.0"
   },
